@@ -1,0 +1,25 @@
+[
+  
+    {
+
+      "title"    : "Pytorch",
+      "url"      : "/2020/10/11/pytorch",
+      "category" : "",
+      "tags"     : "machine learning",
+      "date"     : "2020-10-11 16:08:00 +1100",
+      "description" : "This is a collection of short CSS snippets I thought might be useful for beginners"
+
+    } ,
+  
+    {
+
+      "title"    : "Machine Learning Ops",
+      "url"      : "/2020/10/11/machine-learning-ops",
+      "category" : "",
+      "tags"     : "machine learning",
+      "date"     : "2020-10-11 16:07:00 +1100",
+      "description" : "This is a collection of short CSS snippets I thought might be useful for beginners"
+
+    } 
+  
+]

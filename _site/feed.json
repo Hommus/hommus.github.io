@@ -1,0 +1,56 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Hommus",
+    "home_page_url": "http://localhost:4000/",
+    "feed_url": "http://localhost:4000/feed.json",
+    "description": "An engineer's portfolio.",
+    "icon": "http://localhost:4000/apple-touch-icon.png",
+    "favicon": "http://localhost:4000/favicon.ico",
+    "expired": false,
+    
+"items": [
+    
+        {
+            "id": "http://localhost:4000/2020/10/11/pytorch",
+            "title": "Pytorch",
+            "summary": "This is a collection of short CSS snippets I thought might be useful for beginners",
+            "content_text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sed aliquid veniam magni, suscipit, officia ullam delectus harum placeat minima facilis! Cum doloremque blanditiis molestiae officia reprehenderit molestias et fugit!",
+            "content_html": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sed aliquid veniam magni, suscipit, officia ullam delectus harum placeat minima facilis! Cum doloremque blanditiis molestiae officia reprehenderit molestias et fugit!</p>",
+            "url": "http://localhost:4000/2020/10/11/pytorch",
+            
+            
+            
+            
+            
+            "date_published": "2020-10-11T16:08:00+11:00",
+            "date_modified": "2020-10-11T16:08:00+11:00",
+            
+                "author": 
+                ""
+                
+            
+        },
+    
+        {
+            "id": "http://localhost:4000/2020/10/11/machine-learning-ops",
+            "title": "Machine Learning Ops",
+            "summary": "This is a collection of short CSS snippets I thought might be useful for beginners",
+            "content_text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sed aliquid veniam magni, suscipit, officia ullam delectus harum placeat minima facilis! Cum doloremque blanditiis molestiae officia reprehenderit molestias et fugit!",
+            "content_html": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sed aliquid veniam magni, suscipit, officia ullam delectus harum placeat minima facilis! Cum doloremque blanditiis molestiae officia reprehenderit molestias et fugit!</p>",
+            "url": "http://localhost:4000/2020/10/11/machine-learning-ops",
+            
+            
+            
+            
+            
+            "date_published": "2020-10-11T16:07:00+11:00",
+            "date_modified": "2020-10-11T16:07:00+11:00",
+            
+                "author": 
+                ""
+                
+            
+        }
+    
+    ]
+}
