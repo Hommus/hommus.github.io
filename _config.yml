@@ -3,6 +3,8 @@ url: https://hommus.github.io/
 title: Hommus
 description: An engineer's portfolio.
 
+# bundle exec jekyll serve --livereload
+
 baseurl: ""
 
 highlighter: rouge
