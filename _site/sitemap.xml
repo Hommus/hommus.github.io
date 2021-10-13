@@ -2,18 +2,18 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/search</loc>
-<lastmod>2021-10-13T16:58:45+11:00</lastmod>
+<lastmod>2021-10-13T16:59:28+11:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/writing</loc>
-<lastmod>2021-10-13T16:58:45+11:00</lastmod>
+<lastmod>2021-10-13T16:59:28+11:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/2021/10/11/machine-learning-ops</loc>
 <lastmod>2021-10-11T16:07:00+11:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/2021/10/12/collab-grocery-shopping-app</loc>
+<loc>http://localhost:4000/2021/10/12/grocery-shopping-app</loc>
 <lastmod>2021-10-12T11:58:00+11:00</lastmod>
 </url>
 <url>

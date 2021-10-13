@@ -4,7 +4,7 @@
  <title>Hommus</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2021-10-13T16:58:45+11:00</updated>
+ <updated>2021-10-13T16:59:28+11:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Grocery Shopping App</title>
-   <link href="http://localhost:4000/2021/10/12/collab-grocery-shopping-app"/>
+   <link href="http://localhost:4000/2021/10/12/grocery-shopping-app"/>
    <updated>2021-10-12T11:58:00+11:00</updated>
-   <id>http://localhost:4000/2021/10/12/collab-grocery-shopping-app</id>
+   <id>http://localhost:4000/2021/10/12/grocery-shopping-app</id>
    <content type="html">&lt;p&gt;I recently quit my job as a machine learning engineer to spend some time developing my own ideas and projects. The majority of these ideas require web development skills so I started with the easiest web-based project I could think of, a todo list. The collaborative grocery shopping app is a simple todo list tailored for groceries.&lt;/p&gt;
 
 &lt;figure&gt;
