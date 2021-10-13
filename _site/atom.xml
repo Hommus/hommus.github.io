@@ -4,7 +4,7 @@
  <title>Hommus</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2021-10-13T16:53:31+11:00</updated>
+ <updated>2021-10-13T16:58:45+11:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
@@ -13,7 +13,7 @@
 
  
  <entry>
-   <title>Shared Grocery Shopping App</title>
+   <title>Grocery Shopping App</title>
    <link href="http://localhost:4000/2021/10/12/collab-grocery-shopping-app"/>
    <updated>2021-10-12T11:58:00+11:00</updated>
    <id>http://localhost:4000/2021/10/12/collab-grocery-shopping-app</id>

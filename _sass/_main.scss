@@ -54,6 +54,7 @@ pre {
 	line-height: 1.6em;
 	hyphens: auto;
 	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
 }
 
 .post h1, .post h2, .post h3, .post h4 {
@@ -214,12 +215,6 @@ nav ul {
 .photos ul {
 	margin-top: 0.5rem;
 }
-}
-
-@media screen and (max-width: 25rem) {
-	.posts li {
-		font-size: small;
-	}
 }
 
 section {

@@ -1,6 +1,6 @@
 ---
 layout:      post
-title:       Shared Grocery Shopping App
+title:       Grocery Shopping App
 date:        2021-10-12 11:58:00 +1100 
 description: A collaborative grocery shopping app.
 summary:     A collaborative grocery shopping app.
