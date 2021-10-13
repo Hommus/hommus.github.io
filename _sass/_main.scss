@@ -9,6 +9,13 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'InterBold';
+	src: url(/assets/fonts/Inter-Bold.ttf) format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
 *,:after,:before {
 	box-sizing:border-box;
 	background-color:inherit;
@@ -46,11 +53,13 @@ pre {
 	text-align: justify;
 	line-height: 1.6em;
 	hyphens: auto;
+	-webkit-hyphens: auto;
 }
 
 .post h1, .post h2, .post h3, .post h4 {
 	margin: 1rem 0;
 	font-weight: bold;
+	font-family: 'InterBold', serif;
 }
 
 .post h2:first-child, .project h2:first-child, .photo h2:first-child {
@@ -205,7 +214,12 @@ nav ul {
 .photos ul {
 	margin-top: 0.5rem;
 }
+}
 
+@media screen and (max-width: 25rem) {
+	.posts li {
+		font-size: small;
+	}
 }
 
 section {
