@@ -275,6 +275,7 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-seo-tag
   jekyll-sitemap
+  kramdown
 
 BUNDLED WITH
    2.2.29

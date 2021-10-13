@@ -2,12 +2,17 @@ site: Hommus
 url: https://hommus.github.io/
 title: Hommus
 description: An engineer's portfolio.
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
 
 # bundle exec jekyll serve --livereload
 
 baseurl: ""
-
-highlighter: rouge
 
 exclude:
   - .jekyll-cache

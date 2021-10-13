@@ -1,3 +1,8 @@
+:root {
+	--marker-color: 255, 234, 71;
+}
+
+
 *,:after,:before {
 	box-sizing:border-box;
 	background-color:inherit;
@@ -7,7 +12,7 @@
 }
 
 body {
-	font-family: system-ui, sans-serif;
+	font-family: 'Inter', serif;
 	-webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 	line-height:1.5;
@@ -32,10 +37,14 @@ pre {
 
 .post p {
 	margin: .5rem 0;
+	text-align: justify;
+	line-height: 1.6em;
+	hyphens: auto;
 }
 
 .post h1, .post h2, .post h3, .post h4 {
 	margin: 1rem 0;
+	font-weight: bold;
 }
 
 .post h2:first-child, .project h2:first-child, .photo h2:first-child {
@@ -43,7 +52,7 @@ pre {
 }
 
 .meta {
-	margin: 2rem 0;
+	margin: 1rem 0;
 }
 
 code,pre {
@@ -65,12 +74,17 @@ pre {
 
 img {
 	max-width:100%;
+	width: auto;
+	height: 100%;
+	max-width: 200px;
+	border-radius: 2px;
 }
 
 hr {
-	background: #000;
+	background: #edf2f7;
     height: 1px;
     border: 0;
+	margin-top: 1rem;
 }
 
 header {
@@ -160,7 +174,7 @@ strong, b {
 main {
 	display:flex;
 	flex-wrap:wrap;
-	max-width:60rem;
+	max-width:50rem;
 	margin:2rem auto;
 	padding:1rem;
 }
@@ -194,7 +208,6 @@ section {
 	min-width:70%;
 	display:flex;
 	flex-direction:column;
-	
 }
 
 figcaption {
@@ -206,6 +219,58 @@ input[type=text] {
 }
 
 .introduction {
-	// background-color: red;
 	margin-bottom: 1rem;
 }
+
+h2::before {
+	content: "#";
+	color: #cecece;
+	margin: 0 10px 0 0;
+}
+
+.note-video {
+	display: block;
+	// margin: 30px auto;
+	margin: 30px auto 0 auto;
+	border: 1px solid #cecece;
+	border-radius: 2px;
+}
+
+figcaption {
+	margin: 5px auto 30px auto;
+    // font-variant: small-caps;
+    // font-weight: bold;
+    color: #919191;
+	text-align: center;
+}
+
+mark {
+	padding: .1em 5px;
+	margin: 0 -5px;
+	border-radius: 10px;
+	-webkit-box-decoration-break: clone;
+	box-decoration-break: clone;
+	background: linear-gradient(104deg, rgba(0,0,0,0) .9%, rgba(var(--marker-color),1.25) 2.4%,rgba(var(--marker-color),.5) 5.8%,rgba(var(--marker-color),.25) 93%,rgba(var(--marker-color),.7) 96%,rgba(0,0,0,0) 98%),
+				linear-gradient(183deg, rgba(0,0,0,0) 0, rgba(var(--marker-color),.3) 7.9%,rgba(0,0,0,0) 15%);
+}
+
+// .images-row {
+// 	display: flex;
+// 	margin: 20px -5px;
+// }
+
+// .images-row figure {
+// 	margin: 0 5px 20px 5px;
+// }
+
+// .images-row figure picture {
+// 	margin: 0;
+// }
+
+// .images-row img {
+// 	display: inline-block;
+// 	max-width: 100%;
+// 	width: auto;
+// 	height: 100%;
+// 	border-radius: 2px;
+// }
